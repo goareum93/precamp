@@ -1,0 +1,32 @@
+.aaa {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 10px solid black;
+    padding: 30px;
+    margin: 20px;
+    /* 크기고정 */
+    box-sizing: border-box; 
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 10px solid black;
+    padding: 30px;
+    margin: 20px;
+    /* 크기고정 */
+    box-sizing: border-box; 
+}
+
+.wrapper {
+    height: 1000px;
+
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; 양쪽정렬 */
+    /* justify-content: flex-end; 오른쪽정렬 */
+    justify-content: center;
+    align-items: flex-end;
+}
